@@ -1,0 +1,22 @@
+To set up and run your project, follow these steps:
+
+1. Run db.py File in the Database folder.
+python db.py
+Execute the db.py script to create the database.db file. This file will store user information.
+
+2. Run CareerPredictionModel.ipynb Notebook
+Open and run the CareerPredictionModel.ipynb notebook. This will generate a weights.pkl file,
+which is the trained model used for predictions.
+Ensure all dependencies required for this notebook are installed and available.
+
+3. Start the Streamlit Application
+Open a new terminal and run the following command to launch the app:
+streamlit run app.py
+This command will open the app automatically in a web browser.
+
+4. Enter Input and Predict
+On the app's web interface, enter the required input and click on the "Predict" button
+to get your result.
+
+
+Use Python 3.10.9 {base'}
